@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Добавить сотрудника</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        form {
+            text-align: left;
+        }
+
+        form label,
+        form input {
+            display: block;
+            vertical-align: middle;
+            margin: 10px 0;
+        }
+
+        form input[type="submit" ] {
+            margin-left: 50px;
+        }
+    </style>
+</head>
+<body class="body">
+<div>
+    <div class="navbar">
+        <a href="main.html"> Главная </a>
+        <a href="staff.html" style="margin-left: 8px"> Список сотрудников </a>
+        <a href="empofthemonth.html" style="margin-left: 8px"> Сотрудник месяца </a>
+        <a href="addemploy.html" style="margin-left: 8px"> Добавить сотрудника </a>
+    </div>
+    <section class="form">
+        <div class="head">
+            <h1>Добавить сотрудника</h1>
+            <form class="image">
+                <label for="photo">Выберите фотографию:</label>
+                <input type="file" id="photo" name="photo">
+                <input type="submit" value="Загрузить">
+            </form>
+            <form action="" method="post">
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="name">
+
+                <label for="lastname">Фамилия:</label>
+                <input type="text" id="lastname" name="lastname">
+
+                <label for="patronymic">Отчество:</label>
+                <input type="text" id="patronymic" name="patronymic">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+
+                <label for="phone">Телефон:</label>
+                <input type="tel" id="phone" name="phone">
+
+                <label for="position">Должность:</label>
+                <select id="position" name="position">
+                    <option value="manager">Менеджер</option>
+                    <option value="developer">Разработчик</option>
+                    <option value="designer">Дизайнер</option>
+                </select>
+
+                <label for="bio">Краткая биография:</label>
+                <textarea id="bio" name="bio"></textarea>
+
+                <input type="submit" value="Добавить сотрудника">
+            </form>
+
+        </div>
+    </section>
+</div>
+</body>
+</html>

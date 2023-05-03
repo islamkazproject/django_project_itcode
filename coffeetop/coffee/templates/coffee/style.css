@@ -1,0 +1,97 @@
+.body{
+    background-color: #ffffff;
+}
+.navbar{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #a9a9a9;
+    justify-content: flex-end;
+}
+
+/* Дополнительные стили для навбара */
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar li {
+    margin: 0 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+.staff_table{
+    display: flex;
+    flex-direction: row;
+}
+.table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+.table_th {
+    font-weight: bold;
+    padding: 5px;
+    background: #efefef;
+    border: 1px solid #dddddd;
+}
+.table_td {
+    border: 1px solid #dddddd;
+    padding: 5px;
+}
+
+
+.a:link {
+    color: #9a26b9; /* Цвет ссылок */
+}
+.a:visited {
+    color: #fd0000; /* Цвет посещенных ссылок */
+}
+.a:active {
+    color: #a4ff00; /* Цвет активной ссылки */
+}
+
+.button{
+    display: inline-block;
+    margin-top: 20%;
+    font-weight: bold;
+    color: darkgray;
+}
+
+.button a:link{
+    color: darkcyan;
+}
+
+.employee-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: darkslateblue;
+}
+
+.employee-bio{
+    font-size: 18px;
+}
+.employee-image{
+    flex: 0 0 150px;
+    margin-right: 20px;
+}
+.employee-image img{
+    width: 200px;
+    height: 300px;
+}
+
+.photo img{
+    height: 100%;
+    width: 100%;
+}
